@@ -39,12 +39,12 @@ https://raw.githubusercontent.com/pentaho/pentaho-karaf-assembly/master/pentaho-
 		          <execution>
 		            <phase>compile</phase>
 		            <configuration>
-		              <tasks>
+		              <target>
 		                  <copy 
 		                      file="../vault-playground-assembly/target/assembly.tar.gz" 
 		                      tofile="target/assembly.tar.gz"
 		                  />
-		              </tasks>
+		              </target>
 		            </configuration>
 		            <goals>
 		              <goal>run</goal>
